@@ -1,0 +1,56 @@
+<!-- Github -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GitHub Profile Viewer</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        #profile {
+            margin-top: 20px;
+        }
+
+        img {
+            max-width: 100%;
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        ul li {
+            margin: 5px 0;
+        }
+
+        a {
+            color: #007bff;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>GitHub Profile Viewer</h1>
+    <form id="githubForm">
+        <input type="text" id="username" placeholder="Enter GitHub username" required>
+        <button type="submit">Search</button>
+    </form>
+    <div id="profile"></div>
+    <script src="github.js"></script>
+</body>
+
+</html>
